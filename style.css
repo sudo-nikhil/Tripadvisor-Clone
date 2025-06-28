@@ -737,35 +737,6 @@ header {
 
 }
 
-@media screen and (max-width:550px) {
-
-  .footer-links {
-    display: none;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-    font-weight: bold;
-  }
-
-  .search__searchbar__input {
-    font-size: 10px;
-    width: 60%;
-  }
-
-  .card {
-    flex-basis: 70%;
-  }
-
-}
-
-/* Responsive */
-
-
 @media (max-width: 980px) {
   .sales-image__s1__line {
     display: none;
@@ -842,6 +813,37 @@ header {
   }
 
 }
+
+@media screen and (max-width:550px) {
+
+  .footer-links {
+    display: none;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .search__searchbar__input {
+    font-size: 10px;
+    width: 60%;
+  }
+
+  .card {
+    flex-basis: 70%;
+  }
+
+}
+
+/* Responsive */
+
+
+
 
 /* @media (max-width: 600px) {
   .img1 {
